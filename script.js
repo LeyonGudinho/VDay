@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
 	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'Baby';
+		resultDiv.innerHTML = 'Love you cutie ❤️';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
 		resultDiv.innerHTML = 'Only my cutie can access';
