@@ -7,7 +7,7 @@ function handleClick(event) {
     event.preventDefault(); // Prevent the default action (navigation)
 
     if (event.target.id === 'yesButton') {
-        window.location.href = 'yes.html'; // Redirect to yes.html
+        window.location.href = 'yes_1.html'; // Redirect to yes.html
     } else if (event.target.id === 'noButton') {
         moveNoButton(); // Move the noButton to a random position
         noButtonMoved = true; // Set the flag to true
